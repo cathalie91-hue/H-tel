@@ -66,22 +66,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="form-grid">
         <div class="form-group">
           <label class="form-label">Nom *</label>
-          <input type="text" name="nom" class="form-control" placeholder="Rakoto" required value="<?= htmlspecialchars($_POST['nom'] ?? '') ?>">
+          <input type="text" name="nom" class="form-control" placeholder="FANOMEZANTSOA" required value="<?= htmlspecialchars($_POST['nom'] ?? '') ?>">
         </div>
         <div class="form-group">
           <label class="form-label">Prénom *</label>
-          <input type="text" name="prenom" class="form-control" placeholder="Jean" required value="<?= htmlspecialchars($_POST['prenom'] ?? '') ?>">
+          <input type="text" name="prenom" class="form-control" placeholder="Cathalie" required value="<?= htmlspecialchars($_POST['prenom'] ?? '') ?>">
         </div>
       </div>
 
       <div class="form-group">
         <label class="form-label">Email *</label>
-        <input type="email" name="email" class="form-control" placeholder="jean@email.com" required value="<?= htmlspecialchars($_POST['email'] ?? '') ?>">
+        <input type="email" name="email" class="form-control" placeholder="cathalie@gmail.com" required value="<?= htmlspecialchars($_POST['email'] ?? '') ?>">
       </div>
 
       <div class="form-group">
         <label class="form-label">Téléphone</label>
-        <input type="text" name="telephone" class="form-control" placeholder="+261 34 000 0000" value="<?= htmlspecialchars($_POST['telephone'] ?? '') ?>">
+        <input type="text" name="telephone" class="form-control" placeholder="+261 34 00 000 00" value="<?= htmlspecialchars($_POST['telephone'] ?? '') ?>">
       </div>
 
       <div class="form-grid">
